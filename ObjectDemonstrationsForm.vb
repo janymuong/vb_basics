@@ -1,4 +1,11 @@
-﻿Public Class ObjectDemonstrationsForm
+﻿﻿' SCT211-0848/2018
+' Jany Muong
+
+' Form Two
+' ICS 2209: Design and Implementation Computer Apps
+' Computer Scinece
+
+Public Class ObjectDemonstrationsForm
     Private Sub ObjectDemonstrationsForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
