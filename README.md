@@ -3,4 +3,4 @@
 
 
 ## License
-This project is not licensed under the [MIT License](LICENSE) :).
+This project is not licensed under the [MIT License]() :)
