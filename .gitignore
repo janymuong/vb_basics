@@ -21,6 +21,7 @@ obj/
 *.sln
 *.vcproj
 *.vbproj
+*.vbproj*
 *.csproj
 *.dbmdl
 *.rdlc
