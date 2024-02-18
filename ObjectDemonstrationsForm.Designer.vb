@@ -37,6 +37,10 @@ Partial Class ObjectDemonstrationsForm
         ItalicCheckBox = New CheckBox()
         BoldCheckBox = New CheckBox()
         BoldItalicCheckBox = New CheckBox()
+        ExitButton = New Button()
+        ImagePictureBox = New PictureBox()
+        LoadPictureButton = New Button()
+        CType(ImagePictureBox, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' ObjectDemoHeaderLabel
@@ -196,11 +200,45 @@ Partial Class ObjectDemonstrationsForm
         BoldItalicCheckBox.Text = "Bold Italic"
         BoldItalicCheckBox.UseVisualStyleBackColor = True
         ' 
+        ' ExitButton
+        ' 
+        ExitButton.Font = New Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        ExitButton.Location = New Point(626, 419)
+        ExitButton.Name = "ExitButton"
+        ExitButton.Size = New Size(97, 53)
+        ExitButton.TabIndex = 16
+        ExitButton.Text = "Exit"
+        ExitButton.UseVisualStyleBackColor = True
+        ' 
+        ' ImagePictureBox
+        ' 
+        ImagePictureBox.BorderStyle = BorderStyle.FixedSingle
+        ImagePictureBox.Location = New Point(51, 221)
+        ImagePictureBox.Name = "ImagePictureBox"
+        ImagePictureBox.Size = New Size(310, 178)
+        ImagePictureBox.SizeMode = PictureBoxSizeMode.StretchImage
+        ImagePictureBox.TabIndex = 17
+        ImagePictureBox.TabStop = False
+        ' 
+        ' LoadPictureButton
+        ' 
+        LoadPictureButton.Font = New Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        LoadPictureButton.Location = New Point(73, 419)
+        LoadPictureButton.Name = "LoadPictureButton"
+        LoadPictureButton.Size = New Size(174, 53)
+        LoadPictureButton.TabIndex = 18
+        LoadPictureButton.Text = "Load Picture "
+        LoadPictureButton.TextAlign = ContentAlignment.MiddleLeft
+        LoadPictureButton.UseVisualStyleBackColor = True
+        ' 
         ' ObjectDemonstrationsForm
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 508)
+        Controls.Add(LoadPictureButton)
+        Controls.Add(ImagePictureBox)
+        Controls.Add(ExitButton)
         Controls.Add(BoldItalicCheckBox)
         Controls.Add(BoldCheckBox)
         Controls.Add(ItalicCheckBox)
@@ -218,6 +256,7 @@ Partial Class ObjectDemonstrationsForm
         Controls.Add(ObjectDemoHeaderLabel)
         Name = "ObjectDemonstrationsForm"
         Text = "ObjectDemonstrationsForm"
+        CType(ImagePictureBox, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -238,4 +277,7 @@ Partial Class ObjectDemonstrationsForm
     Friend WithEvents CheckBox As CheckBox
     Friend WithEvents BoldItalicCheckBox As CheckBox
     Friend WithEvents BoldCheckBox As CheckBox
+    Friend WithEvents ExitButton As Button
+    Friend WithEvents ImagePictureBox As PictureBox
+    Friend WithEvents LoadPictureButton As Button
 End Class

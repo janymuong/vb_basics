@@ -104,6 +104,20 @@
         DisplayTestTextBox.Font = New Font(DisplayTestTextBox.Font, fontStyle)
     End Sub
 
+    Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
+        ' used to unload the Form back to the welcoming for when the button is clicked
+        Me.Close()
+    End Sub
 
+    Private Sub LoadPictureButton_Click(sender As Object, e As EventArgs) Handles LoadPictureButton.Click
+        ' Button, used to load a picture from the hard disk of the computer
+        ' and display it in the picture box control of the form when it is clicked.
+        Dim openFileDialog As New OpenFileDialog()
+        openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.gif;*.bmp|All Files|*.*"
 
+        If openFileDialog.ShowDialog() = DialogResult.OK Then
+            Dim selectedImage As Image = Image.FromFile(openFileDialog.FileName)
+            ImagePictureBox.Image = selectedImage
+        End If
+    End Sub
 End Class
