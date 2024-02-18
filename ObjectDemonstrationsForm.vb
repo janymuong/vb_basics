@@ -1,4 +1,4 @@
-﻿﻿' SCT211-0848/2018
+﻿' SCT211-0848/2018
 ' Jany Muong
 
 ' Form Two
