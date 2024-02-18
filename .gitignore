@@ -1,1 +1,59 @@
 .vs/ICS2209Lab01App/FileContentIndex/
+
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.bak
+*.cache
+*.log
+*.DS_Store
+
+# Ignore NuGet packages
+/packages/
+
+# Ignore DLL and PDB files
+*.dll
+*.pdb
+
+# Ignore Visual Studio files
+*.sln
+*.vcproj
+*.vbproj
+*.csproj
+*.dbmdl
+*.rdlc
+
+# Ignore VB metadata files
+*.vsmdi
+*.vspscc
+*.vssscc
+
+# Ignore Test Results
+TestResults/
+
+# Ignore Resharper and Rider files
+_ReSharper*/
+*.resharper
+*.ReSharper*
+*.rider
+*.sln.DotSettings.user
+
+# Ignore Roslyn code analysis files
+*.ide
+
+# Ignore build output
+[Bb]in/
+[Oo]bj/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.suo
+*.userosscache
+*.suo
+
+# Ignore backup files
+*~
