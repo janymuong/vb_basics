@@ -7,7 +7,7 @@
 
 Public Class ObjectDemonstrationsForm
     Private Sub ObjectDemonstrationsForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        ExitButton.Text = "E&xit"
     End Sub
 
     Private Sub ObjectDemoHeaderLabel_Click(sender As Object, e As EventArgs) Handles ObjectDemoHeaderLabel.Click
