@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("ICS2209Lab01App"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+981257fe7e55bfcd5f31f73483a03c7442c762a1"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ad16f64817aa676cc3f977bab935bc02d65f960"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("ICS2209Lab01App"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("ICS2209Lab01App"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

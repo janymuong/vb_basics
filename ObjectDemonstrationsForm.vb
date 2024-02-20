@@ -14,9 +14,6 @@ Public Class ObjectDemonstrationsForm
 
     End Sub
 
-    Private Sub DisplayTestLabel_Click(sender As Object, e As EventArgs) Handles DisplayTestLabel.Click
-
-    End Sub
     Private Sub DisplayTestTextBox_TextChanged(sender As Object, e As EventArgs) Handles DisplayTestTextBox.TextChanged
         ' DisplayTestTextBox.Text = DisplayTestTextBox.Text
     End Sub

@@ -23,24 +23,28 @@ Partial Class ObjectDemonstrationsForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         ObjectDemoHeaderLabel = New Label()
-        DisplayTestTextBox = New TextBox()
-        DisplayTestLabel = New Label()
-        FontLabel = New Label()
-        GaramondRadioButton = New RadioButton()
-        MagnetoRadioButton = New RadioButton()
-        TahomaRadioButton = New RadioButton()
-        GreenRadioButton = New RadioButton()
-        RedRadioButton = New RadioButton()
-        BlueRadioButton = New RadioButton()
-        Label1 = New Label()
-        Label2 = New Label()
-        ItalicCheckBox = New CheckBox()
-        BoldCheckBox = New CheckBox()
-        BoldItalicCheckBox = New CheckBox()
         ExitButton = New Button()
         ImagePictureBox = New PictureBox()
         LoadPictureButton = New Button()
+        DisplayTestGroupBox = New GroupBox()
+        DisplayTestTextBox = New TextBox()
+        FontGroupBox = New GroupBox()
+        TahomaRadioButton = New RadioButton()
+        MagnetoRadioButton = New RadioButton()
+        GaramondRadioButton = New RadioButton()
+        FontStyleGroupBox = New GroupBox()
+        BoldItalicCheckBox = New CheckBox()
+        BoldCheckBox = New CheckBox()
+        ItalicCheckBox = New CheckBox()
+        FontColorGroupBox = New GroupBox()
+        BlueRadioButton = New RadioButton()
+        RedRadioButton = New RadioButton()
+        GreenRadioButton = New RadioButton()
         CType(ImagePictureBox, ComponentModel.ISupportInitialize).BeginInit()
+        DisplayTestGroupBox.SuspendLayout()
+        FontGroupBox.SuspendLayout()
+        FontStyleGroupBox.SuspendLayout()
+        FontColorGroupBox.SuspendLayout()
         SuspendLayout()
         ' 
         ' ObjectDemoHeaderLabel
@@ -52,153 +56,6 @@ Partial Class ObjectDemonstrationsForm
         ObjectDemoHeaderLabel.Size = New Size(198, 27)
         ObjectDemoHeaderLabel.TabIndex = 0
         ObjectDemoHeaderLabel.Text = "Object Demonstrations"
-        ' 
-        ' DisplayTestTextBox
-        ' 
-        DisplayTestTextBox.Location = New Point(73, 146)
-        DisplayTestTextBox.Name = "DisplayTestTextBox"
-        DisplayTestTextBox.Size = New Size(184, 31)
-        DisplayTestTextBox.TabIndex = 1
-        DisplayTestTextBox.Text = "Sample Test"
-        ' 
-        ' DisplayTestLabel
-        ' 
-        DisplayTestLabel.AutoSize = True
-        DisplayTestLabel.BorderStyle = BorderStyle.Fixed3D
-        DisplayTestLabel.Location = New Point(107, 116)
-        DisplayTestLabel.Name = "DisplayTestLabel"
-        DisplayTestLabel.Size = New Size(112, 27)
-        DisplayTestLabel.TabIndex = 2
-        DisplayTestLabel.Text = "Display Test "
-        ' 
-        ' FontLabel
-        ' 
-        FontLabel.AutoSize = True
-        FontLabel.BorderStyle = BorderStyle.Fixed3D
-        FontLabel.Location = New Point(384, 116)
-        FontLabel.Name = "FontLabel"
-        FontLabel.Size = New Size(50, 27)
-        FontLabel.TabIndex = 3
-        FontLabel.Text = "Font"
-        ' 
-        ' GaramondRadioButton
-        ' 
-        GaramondRadioButton.AutoSize = True
-        GaramondRadioButton.Location = New Point(384, 148)
-        GaramondRadioButton.Name = "GaramondRadioButton"
-        GaramondRadioButton.Size = New Size(121, 29)
-        GaramondRadioButton.TabIndex = 5
-        GaramondRadioButton.TabStop = True
-        GaramondRadioButton.Text = "Garamond"
-        GaramondRadioButton.UseVisualStyleBackColor = True
-        ' 
-        ' MagnetoRadioButton
-        ' 
-        MagnetoRadioButton.AutoSize = True
-        MagnetoRadioButton.Location = New Point(511, 148)
-        MagnetoRadioButton.Name = "MagnetoRadioButton"
-        MagnetoRadioButton.Size = New Size(109, 29)
-        MagnetoRadioButton.TabIndex = 6
-        MagnetoRadioButton.TabStop = True
-        MagnetoRadioButton.Text = "Magneto"
-        MagnetoRadioButton.UseVisualStyleBackColor = True
-        ' 
-        ' TahomaRadioButton
-        ' 
-        TahomaRadioButton.AutoSize = True
-        TahomaRadioButton.Location = New Point(626, 148)
-        TahomaRadioButton.Name = "TahomaRadioButton"
-        TahomaRadioButton.Size = New Size(99, 29)
-        TahomaRadioButton.TabIndex = 7
-        TahomaRadioButton.TabStop = True
-        TahomaRadioButton.Text = "Tahoma"
-        TahomaRadioButton.UseVisualStyleBackColor = True
-        ' 
-        ' GreenRadioButton
-        ' 
-        GreenRadioButton.AutoSize = True
-        GreenRadioButton.Location = New Point(626, 251)
-        GreenRadioButton.Name = "GreenRadioButton"
-        GreenRadioButton.Size = New Size(83, 29)
-        GreenRadioButton.TabIndex = 8
-        GreenRadioButton.TabStop = True
-        GreenRadioButton.Text = "Green"
-        GreenRadioButton.UseVisualStyleBackColor = True
-        ' 
-        ' RedRadioButton
-        ' 
-        RedRadioButton.AutoSize = True
-        RedRadioButton.Location = New Point(626, 321)
-        RedRadioButton.Name = "RedRadioButton"
-        RedRadioButton.Size = New Size(67, 29)
-        RedRadioButton.TabIndex = 9
-        RedRadioButton.TabStop = True
-        RedRadioButton.Text = "Red"
-        RedRadioButton.UseVisualStyleBackColor = True
-        ' 
-        ' BlueRadioButton
-        ' 
-        BlueRadioButton.AutoSize = True
-        BlueRadioButton.Location = New Point(626, 286)
-        BlueRadioButton.Name = "BlueRadioButton"
-        BlueRadioButton.Size = New Size(70, 29)
-        BlueRadioButton.TabIndex = 10
-        BlueRadioButton.TabStop = True
-        BlueRadioButton.Text = "Blue"
-        BlueRadioButton.UseVisualStyleBackColor = True
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.BorderStyle = BorderStyle.Fixed3D
-        Label1.Location = New Point(611, 221)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(98, 27)
-        Label1.TabIndex = 11
-        Label1.Text = "Font Color"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.BorderStyle = BorderStyle.Fixed3D
-        Label2.Location = New Point(451, 221)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(92, 27)
-        Label2.TabIndex = 12
-        Label2.Text = "Font Style"
-        ' 
-        ' ItalicCheckBox
-        ' 
-        ItalicCheckBox.AutoSize = True
-        ItalicCheckBox.Font = New Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
-        ItalicCheckBox.Location = New Point(451, 252)
-        ItalicCheckBox.Name = "ItalicCheckBox"
-        ItalicCheckBox.Size = New Size(77, 29)
-        ItalicCheckBox.TabIndex = 13
-        ItalicCheckBox.Text = "Italic"
-        ItalicCheckBox.UseVisualStyleBackColor = True
-        ' 
-        ' BoldCheckBox
-        ' 
-        BoldCheckBox.AutoSize = True
-        BoldCheckBox.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        BoldCheckBox.Location = New Point(451, 287)
-        BoldCheckBox.Name = "BoldCheckBox"
-        BoldCheckBox.Size = New Size(77, 29)
-        BoldCheckBox.TabIndex = 14
-        BoldCheckBox.Text = "Bold"
-        BoldCheckBox.UseVisualStyleBackColor = True
-        ' 
-        ' BoldItalicCheckBox
-        ' 
-        BoldItalicCheckBox.AutoSize = True
-        BoldItalicCheckBox.Font = New Font("Segoe UI", 9F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
-        BoldItalicCheckBox.Location = New Point(451, 321)
-        BoldItalicCheckBox.Name = "BoldItalicCheckBox"
-        BoldItalicCheckBox.Size = New Size(126, 29)
-        BoldItalicCheckBox.TabIndex = 15
-        BoldItalicCheckBox.Text = "Bold Italic"
-        BoldItalicCheckBox.UseVisualStyleBackColor = True
         ' 
         ' ExitButton
         ' 
@@ -231,53 +88,207 @@ Partial Class ObjectDemonstrationsForm
         LoadPictureButton.TextAlign = ContentAlignment.MiddleLeft
         LoadPictureButton.UseVisualStyleBackColor = True
         ' 
+        ' DisplayTestGroupBox
+        ' 
+        DisplayTestGroupBox.Controls.Add(DisplayTestTextBox)
+        DisplayTestGroupBox.Location = New Point(51, 104)
+        DisplayTestGroupBox.Name = "DisplayTestGroupBox"
+        DisplayTestGroupBox.Size = New Size(232, 89)
+        DisplayTestGroupBox.TabIndex = 19
+        DisplayTestGroupBox.TabStop = False
+        DisplayTestGroupBox.Text = "Display Test"
+        ' 
+        ' DisplayTestTextBox
+        ' 
+        DisplayTestTextBox.Location = New Point(6, 30)
+        DisplayTestTextBox.Name = "DisplayTestTextBox"
+        DisplayTestTextBox.Size = New Size(142, 31)
+        DisplayTestTextBox.TabIndex = 2
+        DisplayTestTextBox.Text = "Sample Test"
+        ' 
+        ' FontGroupBox
+        ' 
+        FontGroupBox.Controls.Add(TahomaRadioButton)
+        FontGroupBox.Controls.Add(MagnetoRadioButton)
+        FontGroupBox.Controls.Add(GaramondRadioButton)
+        FontGroupBox.Location = New Point(370, 104)
+        FontGroupBox.Name = "FontGroupBox"
+        FontGroupBox.Size = New Size(405, 89)
+        FontGroupBox.TabIndex = 20
+        FontGroupBox.TabStop = False
+        FontGroupBox.Text = "Font"
+        ' 
+        ' TahomaRadioButton
+        ' 
+        TahomaRadioButton.AutoSize = True
+        TahomaRadioButton.Location = New Point(256, 39)
+        TahomaRadioButton.Name = "TahomaRadioButton"
+        TahomaRadioButton.Size = New Size(99, 29)
+        TahomaRadioButton.TabIndex = 10
+        TahomaRadioButton.TabStop = True
+        TahomaRadioButton.Text = "Tahoma"
+        TahomaRadioButton.UseVisualStyleBackColor = True
+        ' 
+        ' MagnetoRadioButton
+        ' 
+        MagnetoRadioButton.AutoSize = True
+        MagnetoRadioButton.Location = New Point(141, 39)
+        MagnetoRadioButton.Name = "MagnetoRadioButton"
+        MagnetoRadioButton.Size = New Size(109, 29)
+        MagnetoRadioButton.TabIndex = 9
+        MagnetoRadioButton.TabStop = True
+        MagnetoRadioButton.Text = "Magneto"
+        MagnetoRadioButton.UseVisualStyleBackColor = True
+        ' 
+        ' GaramondRadioButton
+        ' 
+        GaramondRadioButton.AutoSize = True
+        GaramondRadioButton.Location = New Point(14, 39)
+        GaramondRadioButton.Name = "GaramondRadioButton"
+        GaramondRadioButton.Size = New Size(121, 29)
+        GaramondRadioButton.TabIndex = 8
+        GaramondRadioButton.TabStop = True
+        GaramondRadioButton.Text = "Garamond"
+        GaramondRadioButton.UseVisualStyleBackColor = True
+        ' 
+        ' FontStyleGroupBox
+        ' 
+        FontStyleGroupBox.Controls.Add(BoldItalicCheckBox)
+        FontStyleGroupBox.Controls.Add(BoldCheckBox)
+        FontStyleGroupBox.Controls.Add(ItalicCheckBox)
+        FontStyleGroupBox.Location = New Point(405, 221)
+        FontStyleGroupBox.Name = "FontStyleGroupBox"
+        FontStyleGroupBox.Size = New Size(161, 157)
+        FontStyleGroupBox.TabIndex = 21
+        FontStyleGroupBox.TabStop = False
+        FontStyleGroupBox.Text = "Font Style"
+        ' 
+        ' BoldItalicCheckBox
+        ' 
+        BoldItalicCheckBox.AutoSize = True
+        BoldItalicCheckBox.Font = New Font("Segoe UI", 9F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        BoldItalicCheckBox.Location = New Point(16, 101)
+        BoldItalicCheckBox.Name = "BoldItalicCheckBox"
+        BoldItalicCheckBox.Size = New Size(126, 29)
+        BoldItalicCheckBox.TabIndex = 18
+        BoldItalicCheckBox.Text = "Bold Italic"
+        BoldItalicCheckBox.UseVisualStyleBackColor = True
+        ' 
+        ' BoldCheckBox
+        ' 
+        BoldCheckBox.AutoSize = True
+        BoldCheckBox.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        BoldCheckBox.Location = New Point(16, 67)
+        BoldCheckBox.Name = "BoldCheckBox"
+        BoldCheckBox.Size = New Size(77, 29)
+        BoldCheckBox.TabIndex = 17
+        BoldCheckBox.Text = "Bold"
+        BoldCheckBox.UseVisualStyleBackColor = True
+        ' 
+        ' ItalicCheckBox
+        ' 
+        ItalicCheckBox.AutoSize = True
+        ItalicCheckBox.Font = New Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        ItalicCheckBox.Location = New Point(16, 32)
+        ItalicCheckBox.Name = "ItalicCheckBox"
+        ItalicCheckBox.Size = New Size(77, 29)
+        ItalicCheckBox.TabIndex = 16
+        ItalicCheckBox.Text = "Italic"
+        ItalicCheckBox.UseVisualStyleBackColor = True
+        ' 
+        ' FontColorGroupBox
+        ' 
+        FontColorGroupBox.Controls.Add(BlueRadioButton)
+        FontColorGroupBox.Controls.Add(RedRadioButton)
+        FontColorGroupBox.Controls.Add(GreenRadioButton)
+        FontColorGroupBox.Location = New Point(592, 221)
+        FontColorGroupBox.Name = "FontColorGroupBox"
+        FontColorGroupBox.Size = New Size(133, 157)
+        FontColorGroupBox.TabIndex = 22
+        FontColorGroupBox.TabStop = False
+        FontColorGroupBox.Text = "Font Color"
+        ' 
+        ' BlueRadioButton
+        ' 
+        BlueRadioButton.AutoSize = True
+        BlueRadioButton.Location = New Point(20, 66)
+        BlueRadioButton.Name = "BlueRadioButton"
+        BlueRadioButton.Size = New Size(70, 29)
+        BlueRadioButton.TabIndex = 13
+        BlueRadioButton.TabStop = True
+        BlueRadioButton.Text = "Blue"
+        BlueRadioButton.UseVisualStyleBackColor = True
+        ' 
+        ' RedRadioButton
+        ' 
+        RedRadioButton.AutoSize = True
+        RedRadioButton.Location = New Point(20, 101)
+        RedRadioButton.Name = "RedRadioButton"
+        RedRadioButton.Size = New Size(67, 29)
+        RedRadioButton.TabIndex = 12
+        RedRadioButton.TabStop = True
+        RedRadioButton.Text = "Red"
+        RedRadioButton.UseVisualStyleBackColor = True
+        ' 
+        ' GreenRadioButton
+        ' 
+        GreenRadioButton.AutoSize = True
+        GreenRadioButton.Location = New Point(20, 31)
+        GreenRadioButton.Name = "GreenRadioButton"
+        GreenRadioButton.Size = New Size(83, 29)
+        GreenRadioButton.TabIndex = 11
+        GreenRadioButton.TabStop = True
+        GreenRadioButton.Text = "Green"
+        GreenRadioButton.UseVisualStyleBackColor = True
+        ' 
         ' ObjectDemonstrationsForm
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 508)
+        Controls.Add(FontColorGroupBox)
+        Controls.Add(FontStyleGroupBox)
+        Controls.Add(FontGroupBox)
+        Controls.Add(DisplayTestGroupBox)
         Controls.Add(LoadPictureButton)
         Controls.Add(ImagePictureBox)
         Controls.Add(ExitButton)
-        Controls.Add(BoldItalicCheckBox)
-        Controls.Add(BoldCheckBox)
-        Controls.Add(ItalicCheckBox)
-        Controls.Add(Label2)
-        Controls.Add(Label1)
-        Controls.Add(BlueRadioButton)
-        Controls.Add(RedRadioButton)
-        Controls.Add(GreenRadioButton)
-        Controls.Add(TahomaRadioButton)
-        Controls.Add(MagnetoRadioButton)
-        Controls.Add(GaramondRadioButton)
-        Controls.Add(FontLabel)
-        Controls.Add(DisplayTestLabel)
-        Controls.Add(DisplayTestTextBox)
         Controls.Add(ObjectDemoHeaderLabel)
         Name = "ObjectDemonstrationsForm"
         Text = "ObjectDemonstrationsForm"
         CType(ImagePictureBox, ComponentModel.ISupportInitialize).EndInit()
+        DisplayTestGroupBox.ResumeLayout(False)
+        DisplayTestGroupBox.PerformLayout()
+        FontGroupBox.ResumeLayout(False)
+        FontGroupBox.PerformLayout()
+        FontStyleGroupBox.ResumeLayout(False)
+        FontStyleGroupBox.PerformLayout()
+        FontColorGroupBox.ResumeLayout(False)
+        FontColorGroupBox.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
     Friend WithEvents ObjectDemoHeaderLabel As Label
-    Friend WithEvents DisplayTestTextBox As TextBox
-    Friend WithEvents DisplayTestLabel As Label
-    Friend WithEvents FontLabel As Label
-    Friend WithEvents GaramondRadioButton As RadioButton
-    Friend WithEvents MagnetoRadioButton As RadioButton
-    Friend WithEvents TahomaRadioButton As RadioButton
-    Friend WithEvents GreenRadioButton As RadioButton
-    Friend WithEvents RedRadioButton As RadioButton
-    Friend WithEvents BlueRadioButton As RadioButton
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents ItalicCheckBox As CheckBox
     Friend WithEvents CheckBox As CheckBox
-    Friend WithEvents BoldItalicCheckBox As CheckBox
-    Friend WithEvents BoldCheckBox As CheckBox
     Friend WithEvents ExitButton As Button
     Friend WithEvents ImagePictureBox As PictureBox
     Friend WithEvents LoadPictureButton As Button
+    Friend WithEvents DisplayTestGroupBox As GroupBox
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents TahomaRadioButton As RadioButton
+    Friend WithEvents MagnetoRadioButton As RadioButton
+    Friend WithEvents GaramondRadioButton As RadioButton
+    Friend WithEvents DisplayTestTextBox As TextBox
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents BoldItalicCheckBox As CheckBox
+    Friend WithEvents BoldCheckBox As CheckBox
+    Friend WithEvents ItalicCheckBox As CheckBox
+    Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents BlueRadioButton As RadioButton
+    Friend WithEvents RedRadioButton As RadioButton
+    Friend WithEvents GreenRadioButton As RadioButton
+    Friend WithEvents FontGroupBox As GroupBox
+    Friend WithEvents FontStyleGroupBox As GroupBox
+    Friend WithEvents FontColorGroupBox As GroupBox
 End Class
