@@ -6,9 +6,9 @@ This is a Visual Basic (VB) repository! It contains a collection of Visual Basic
 
 ## Projects Included
 
-1. [**GradeApp GUI**](./GradeApp-GUI/): A desktop application developed in VB that allows users to determine grades based on input marks. It provides a cozy and intuitive interface for calculating and displaying grades.
+1. [**GradeApp-GUI**](./GradeApp-GUI/): A desktop application developed in VB that allows users to determine grades based on input marks. It provides a cozy and intuitive interface for calculating and displaying grades.
 
-2. [**ICS2209Lab01App**](./ICS2209Lab01App/): An application developed for the Lab 01 assignment. This project includes features such as loading a form from other forms.
+2. [**ICS2209Lab01App**](./ICS2209Lab01App/): An application developed at the start of `ICS2209`. This project includes features such as loading a form from other forms.
 
 1. Open the project in Visual Studio:
    - Navigate to the project folder.
@@ -25,8 +25,8 @@ This is a Visual Basic (VB) repository! It contains a collection of Visual Basic
   - `GradeApp-GUI-out.png`: Screenshot of the GradeApp GUI application.
 
 - **ICS2209Lab01App**:
-  - `Welcome.vb`: Contains the code for [add specific functionality here].
-  - `ObjectDemonstrationsForm.vb`: Form to load from **Welcome.vb** form.
+  - `Welcome.vb`: contains the code for main entry point of app.
+  - `ObjectDemonstrationsForm.vb`: form to load from **Welcome.vb** form.
 
 ## License
 
