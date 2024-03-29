@@ -51,7 +51,7 @@ Partial Class DetermineGradeForm
         GroupBox1.Controls.Add(Label2)
         GroupBox1.Controls.Add(Label1)
         GroupBox1.Controls.Add(Label4)
-        GroupBox1.Location = New Point(28, 12)
+        GroupBox1.Location = New Point(12, 12)
         GroupBox1.Name = "GroupBox1"
         GroupBox1.Size = New Size(735, 426)
         GroupBox1.TabIndex = 3
@@ -61,7 +61,7 @@ Partial Class DetermineGradeForm
         ' LogOffButton
         ' 
         LogOffButton.BackColor = Color.Red
-        LogOffButton.Font = New Font("Kristen ITC", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        LogOffButton.Font = New Font("Kristen ITC", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         LogOffButton.Location = New Point(620, 24)
         LogOffButton.Name = "LogOffButton"
         LogOffButton.Size = New Size(95, 61)
@@ -72,38 +72,38 @@ Partial Class DetermineGradeForm
         ' CheckgradeButton
         ' 
         CheckgradeButton.BackColor = Color.RosyBrown
-        CheckgradeButton.Font = New Font("Kristen ITC", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        CheckgradeButton.Location = New Point(230, 345)
+        CheckgradeButton.Font = New Font("Kristen ITC", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        CheckgradeButton.Location = New Point(240, 335)
         CheckgradeButton.Name = "CheckgradeButton"
-        CheckgradeButton.Size = New Size(218, 61)
+        CheckgradeButton.Size = New Size(168, 61)
         CheckgradeButton.TabIndex = 13
         CheckgradeButton.Text = "Check GRADE"
         CheckgradeButton.UseVisualStyleBackColor = False
         ' 
         ' LATextBox
         ' 
-        LATextBox.Location = New Point(414, 293)
+        LATextBox.Location = New Point(328, 288)
         LATextBox.Name = "LATextBox"
         LATextBox.Size = New Size(181, 31)
         LATextBox.TabIndex = 12
         ' 
         ' DBTextBox
         ' 
-        DBTextBox.Location = New Point(414, 240)
+        DBTextBox.Location = New Point(328, 235)
         DBTextBox.Name = "DBTextBox"
         DBTextBox.Size = New Size(181, 31)
         DBTextBox.TabIndex = 11
         ' 
         ' CATextBox
         ' 
-        CATextBox.Location = New Point(414, 185)
+        CATextBox.Location = New Point(328, 180)
         CATextBox.Name = "CATextBox"
         CATextBox.Size = New Size(181, 31)
         CATextBox.TabIndex = 10
         ' 
         ' SCTextBox
         ' 
-        SCTextBox.Location = New Point(414, 139)
+        SCTextBox.Location = New Point(328, 134)
         SCTextBox.Name = "SCTextBox"
         SCTextBox.Size = New Size(181, 31)
         SCTextBox.TabIndex = 9
@@ -112,7 +112,7 @@ Partial Class DetermineGradeForm
         ' 
         Label5.AutoSize = True
         Label5.BackColor = Color.Thistle
-        Label5.Location = New Point(184, 293)
+        Label5.Location = New Point(98, 288)
         Label5.Name = "Label5"
         Label5.Size = New Size(205, 25)
         Label5.TabIndex = 8
@@ -122,7 +122,7 @@ Partial Class DetermineGradeForm
         ' 
         Label3.AutoSize = True
         Label3.BackColor = Color.Thistle
-        Label3.Location = New Point(153, 240)
+        Label3.Location = New Point(67, 235)
         Label3.Name = "Label3"
         Label3.Size = New Size(236, 25)
         Label3.TabIndex = 7
@@ -132,7 +132,7 @@ Partial Class DetermineGradeForm
         ' 
         Label2.AutoSize = True
         Label2.BackColor = Color.RosyBrown
-        Label2.Location = New Point(114, 185)
+        Label2.Location = New Point(28, 180)
         Label2.Name = "Label2"
         Label2.Size = New Size(275, 25)
         Label2.TabIndex = 6
@@ -142,7 +142,7 @@ Partial Class DetermineGradeForm
         ' 
         Label1.AutoSize = True
         Label1.BackColor = Color.Thistle
-        Label1.Location = New Point(133, 139)
+        Label1.Location = New Point(47, 134)
         Label1.Name = "Label1"
         Label1.Size = New Size(256, 25)
         Label1.TabIndex = 5
@@ -161,10 +161,10 @@ Partial Class DetermineGradeForm
         ' 
         ' DetermineGradeForm
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(10.0F, 25.0F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Lavender
-        ClientSize = New Size(800, 480)
+        ClientSize = New Size(761, 454)
         Controls.Add(GroupBox1)
         ForeColor = SystemColors.GrayText
         FormBorderStyle = FormBorderStyle.None

@@ -13,7 +13,7 @@ This is a Visual Basic (VB) repository! It contains a collection of Visual Basic
 
 ## Project Structure
 
-- **GradeApp GUI**:
+- **GradeApp-GUI**:
   - `DetermineGradeForm.vb`: Contains the code for determining grades based on input marks.
   - `GradeApp-GUI-out.png`: Screenshot of the GradeApp GUI application.
 

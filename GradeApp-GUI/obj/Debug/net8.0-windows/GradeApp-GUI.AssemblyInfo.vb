@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("GradeApp-GUI"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0a33ce4bcd644696c98687ac7668277f66081a8"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2bfaac2520c000a5d769dadc9d1d49d1091b7d1"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("GradeApp-GUI"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("GradeApp-GUI"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
