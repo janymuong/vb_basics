@@ -13,9 +13,9 @@ The GradeApp GUI is a user-friendly desktop application developed in Visual Basi
 ## GradeApp GUI in snaps:  
 ### Sketch:
 
-<div style="text-align:center;">
+<p align="center">
   <img src="./img/determine_grade_GUI.png" alt="Determine Grade GUI - Sketch" title="Determine Grade GUI - Sketch" />
-</div>
+</p>
 
 
 ### Actual `GUI`
