@@ -10,6 +10,8 @@ This is a Visual Basic (VB) repository! It contains a collection of Visual Basic
 
 2. [**ICS2209Lab01App**](./ICS2209Lab01App/): An application developed at the start of `ICS2209`. This project includes features such as loading a form from other forms.
 
+## Set-Up
+
 1. Open the project in Visual Studio:
    - Navigate to the project folder.
    - Open the solution file (.sln) for each project direcory in Visual Studio.
