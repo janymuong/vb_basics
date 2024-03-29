@@ -2,7 +2,7 @@
 
 The GradeApp GUI is a user-friendly desktop application developed in Visual Basic (VB) that allows users to determine grades based on input marks. It provides a cozy and intuitive interface for calculating and displaying grades, making the process of grading academic performance simple and efficient.
 
-## Features
+## How It Works
 - Input fields for entering marks in subjects.
 - Calculation of grades based on entered marks.
 - Clear and straightforward user interface for ease of use.
@@ -12,7 +12,7 @@ The GradeApp GUI is a user-friendly desktop application developed in Visual Basi
 --- 
 ## GradeApp GUI in snaps:  
 ### Sketch:
-![Determine Grade GUI](determine_grade_GUI.png "Determine Grade GUI")
+![Determine Grade GUI](determine_grade_GUI.png "Determine Grade GUI - Sketch")
 
 ### Actual `GUI`
 ![Grade App GUI](GradeApp-GUI-out.png "Grade App GUI")
