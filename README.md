@@ -25,12 +25,12 @@ This is a Visual Basic (VB) repository! It contains a collection of Visual Basic
 ## Set-Up
 
 1. Open the project in Visual Studio:
-   - Navigate to the project folder.
-   - Open the solution file (.sln) for each project direcory in Visual Studio.
+   - Navigate to a project directory.
+   - Open the solution file (.sln) for each project.
 
 2. Build and run the projects:
    - Build the solution in Visual Studio.
-   - Run the project to see it in action.
+   - Run the each executable to see it in action.
 
 
 ## License
