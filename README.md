@@ -8,14 +8,14 @@ This is a Visual Basic (VB) repository! It contains a collection of Visual Basic
 
 1. [**GradeApp-GUI**](./GradeApp-GUI/): a desktop application that allows users to determine grades based on input marks. It provides a cozy and intuitive interface for calculating and displaying grades.
 
-2. [**ICS2209Lab01App**](./ICS2209Lab01App/): an application developed at the start of `ICS2209`. This project includes features such as loading a form from other forms.
+2. [**ICS2209Lab01App**](./ICS2209Lab01App/): an application developed at the start of `ICS2209`. This project includes features such as form controls and functionality like loading a form from another form.
 
 
 ## Project Structure
 
 - **GradeApp-GUI**:
-  - `DetermineGradeForm.vb`: Contains the code for determining grades based on input marks.
-  - `GradeApp-GUI-out.png`: Screenshot of the GradeApp GUI application.
+  - `DetermineGradeForm.vb`: contains the code for determining grades based on input marks.
+  - `GradeApp-GUI-out.png`: screenshot of the GradeApp GUI application.
 
 - **ICS2209Lab01App**:
   - `Welcome.vb`: contains the code for main entry point of app.
