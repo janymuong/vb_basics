@@ -8,10 +8,13 @@ The GradeApp GUI is a user-friendly desktop application developed in Visual Basi
 - Clear and straightforward user interface for ease of use.
 - LogOffButton to close the application conveniently.
 
---- 
 
+--- 
 ## GradeApp GUI in snaps:  
+### Sketch:
 ![Determine Grade GUI](determine_grade_GUI.png "Determine Grade GUI")
+
+### Actual `GUI`
 ![Grade App GUI](GradeApp-GUI-out.png "Grade App GUI")
 
 ## Usage
