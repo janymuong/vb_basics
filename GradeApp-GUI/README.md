@@ -12,10 +12,14 @@ The GradeApp GUI is a user-friendly desktop application developed in Visual Basi
 --- 
 ## GradeApp GUI in snaps:  
 ### Sketch:
-![Determine Grade GUI](determine_grade_GUI.png "Determine Grade GUI - Sketch")
+
+<div style="text-align:center;">
+  <img src="./img/determine_grade_GUI.png" alt="Determine Grade GUI - Sketch" title="Determine Grade GUI - Sketch" />
+</div>
+
 
 ### Actual `GUI`
-![Grade App GUI](GradeApp-GUI-out.png "Grade App GUI")
+![Grade App GUI](./img/GradeApp-GUI-out.png "Grade App GUI")
 
 ## Usage
 1. Enter marks in the respective subjects.
