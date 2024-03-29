@@ -22,6 +22,6 @@ The GradeApp GUI is a user-friendly desktop application developed in Visual Basi
 2. Click on the "Determine Grade" button to calculate grades.
 3. Use the LogOffButton to close the application.
 
-## Technologies Used
+## Built With:
 - Visual Basic (VB)
 - .NET Framework
