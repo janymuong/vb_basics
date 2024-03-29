@@ -1,5 +1,5 @@
 # ICS 2209: Design and Implementation Computer Apps
-> ### Visual Basic (VB):  
+> ### `Visual Basic (VB)`:  
 > working with Visual Basic form controls;  
 
 This is a Visual Basic (VB) repository! It contains a collection of Visual Basic projects covering fundamental concepts and desktop apps.
@@ -30,9 +30,7 @@ This is a Visual Basic (VB) repository! It contains a collection of Visual Basic
 
 2. Build and run the projects:
    - Build the solution in Visual Studio.
-   - Run the each executable to see it in action.
+   - Run each executable to see it in action.
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## [MIT LICENSE](LICENSE)
