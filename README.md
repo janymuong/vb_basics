@@ -24,7 +24,7 @@ This is a Visual Basic (VB) repository! It contains a collection of Visual Basic
 
 ## Set-Up
 
-1. Open the project in Visual Studio:
+1. [Clone this repo] and open the local repo in Visual Studio:
    - Navigate to a project directory.
    - Open the solution file (.sln) for each project.
 
