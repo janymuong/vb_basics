@@ -18,7 +18,7 @@ This is a Visual Basic (VB) repository! It contains a collection of Visual Basic
   - `GradeApp-GUI-out.png`: screenshot of the GradeApp GUI application.
 
 - **ICS2209Lab01App**:
-  - `Welcome.vb`: contains the code for main entry point of app.
+  - `Welcome.vb`: contains the code for main entry point of app, and form controls.
   - `ObjectDemonstrationsForm.vb`: form to load from **Welcome.vb** form.
 
 
@@ -33,4 +33,4 @@ This is a Visual Basic (VB) repository! It contains a collection of Visual Basic
    - Run each executable to see it in action.
 
 
-## [MIT LICENSE](LICENSE)
+[MIT LICENSE](LICENSE)
