@@ -23,23 +23,33 @@ Partial Class SalesCommissionForm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         SalesListBox = New ListBox()
+        SalesButton = New Button()
         SuspendLayout()
         ' 
         ' SalesListBox
         ' 
-        SalesListBox.Dock = DockStyle.Fill
         SalesListBox.FormattingEnabled = True
         SalesListBox.ItemHeight = 25
-        SalesListBox.Location = New Point(0, 0)
+        SalesListBox.Location = New Point(66, 0)
         SalesListBox.Name = "SalesListBox"
-        SalesListBox.Size = New Size(800, 450)
+        SalesListBox.Size = New Size(629, 279)
         SalesListBox.TabIndex = 0
+        ' 
+        ' SalesButton
+        ' 
+        SalesButton.Location = New Point(177, 312)
+        SalesButton.Name = "SalesButton"
+        SalesButton.Size = New Size(182, 50)
+        SalesButton.TabIndex = 1
+        SalesButton.Text = "Sales"
+        SalesButton.UseVisualStyleBackColor = True
         ' 
         ' SalesCommissionForm
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(10.0F, 25.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(SalesButton)
         Controls.Add(SalesListBox)
         Name = "SalesCommissionForm"
         Text = "Sales Commission Calculator"
@@ -47,5 +57,6 @@ Partial Class SalesCommissionForm
     End Sub
 
     Friend WithEvents SalesListBox As ListBox
+    Friend WithEvents SalesButton As Button
 
 End Class
