@@ -32,12 +32,12 @@ Partial Class SalesCommissionForm
         SalesListBox.ItemHeight = 25
         SalesListBox.Location = New Point(66, 0)
         SalesListBox.Name = "SalesListBox"
-        SalesListBox.Size = New Size(629, 279)
+        SalesListBox.Size = New Size(673, 329)
         SalesListBox.TabIndex = 0
         ' 
         ' SalesButton
         ' 
-        SalesButton.Location = New Point(177, 312)
+        SalesButton.Location = New Point(269, 354)
         SalesButton.Name = "SalesButton"
         SalesButton.Size = New Size(182, 50)
         SalesButton.TabIndex = 1
