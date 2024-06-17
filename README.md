@@ -10,6 +10,8 @@ This is a Visual Basic (VB) repository! It contains a collection of Visual Basic
 
 2. [**ICS2209Lab01App**](./ICS2209Lab01App/): an application developed at the start of `ICS2209`. This project includes features such as form controls and functionality like loading a form from another form.
 
+3. [HeFits](./HeFits/): this is a Health and Fitness Tracking System designed to help individuals monitor and manage their health and fitness goals effectively. It's the final project for this courseware. [`More Info`](./HeFits/README.md)
+
 
 ## Project Structure
 
